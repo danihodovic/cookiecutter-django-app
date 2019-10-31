@@ -1,4 +1,4 @@
-from __future__ import absolute_import, unicode_literals
+from pathlib import Path
 
 DEBUG = True
 USE_TZ = True
@@ -54,3 +54,5 @@ TEMPLATES = [
 
 SITE_ID = 1
 STATIC_URL = "/static/"
+MEDIA_URL = "/media/"
+MEDIA_ROOT = Path(__file__).parent / "media"
