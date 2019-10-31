@@ -6,12 +6,7 @@ USE_TZ = True
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = "very-secret"
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": "db.sqlite3"
-    }
-}
+DATABASES = {"default": {"ENGINE": "django.db.backends.sqlite3", "NAME": "db.sqlite3"}}
 
 ROOT_URLCONF = "tests.urls"
 
@@ -25,9 +20,9 @@ DJANGO_APPS = [
     "django.contrib.staticfiles",
 ]
 
-THIRD_PARTY_APPS = [] # type: ignore
+THIRD_PARTY_APPS = []  # type: ignore
 
-LOCAL_APPS = ["{{ cookiecutter.app_name }}"]
+LOCAL_APPS = ["{{ cookiecutter.app_name }}", "tests"]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
