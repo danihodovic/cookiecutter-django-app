@@ -21,7 +21,7 @@ pudb==2019.1
 py==1.8.0
 Pygments==2.5.2
 pylint==2.4.4
-pylint-django==2.0.12
+pylint-django==2.0.13
 pylint-plugin-utils==0.6
 pyparsing==2.4.5
 pytest==5.3.1
