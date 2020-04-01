@@ -447,7 +447,7 @@ description = "A Pylint plugin to help Pylint understand the Django web framewor
 name = "pylint-django"
 optional = false
 python-versions = "*"
-version = "2.0.12"
+version = "2.0.14"
 
 [package.dependencies]
 pylint = ">=2.0"
@@ -657,7 +657,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["pathlib2", "contextlib2", "unittest2"]
 
 [metadata]
-content-hash = "6c77957e5a3d4371b31e1075c91812a301255b28b17451cff93f59747ccc3ea3"
+content-hash = "08d305a79a11c64976c3bb8f0dcfd4d2d3017914bf30ff9871fe175c843440e0"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -870,8 +870,8 @@ pylint = [
     {file = "pylint-2.4.3.tar.gz", hash = "sha256:856476331f3e26598017290fd65bebe81c960e806776f324093a46b76fb2d1c0"},
 ]
 pylint-django = [
-    {file = "pylint-django-2.0.12.tar.gz", hash = "sha256:9bdb0e022b19881218a25ffb8ad05e83b83bc5cdbc58e5ee8ffbe99965193f6c"},
-    {file = "pylint_django-2.0.12-py3-none-any.whl", hash = "sha256:9eea6a026eaa5ecfad5fed7a33faf77ef55a43cc78afbcaf2f6ddd071156b3f8"},
+    {file = "pylint-django-2.0.14.tar.gz", hash = "sha256:c9bbcff6b87ee8466fae274fd7aae3d2d3d4c4d1ea20c48cbce673e837e36048"},
+    {file = "pylint_django-2.0.14-py3-none-any.whl", hash = "sha256:3a4cc19dd6301fc2d36c9fb6e15163001a6d12723c1f7f8c2249223c2a8c68f0"},
 ]
 pylint-plugin-utils = [
     {file = "pylint-plugin-utils-0.6.tar.gz", hash = "sha256:57625dcca20140f43731311cd8fd879318bf45a8b0fd17020717a8781714a25a"},
