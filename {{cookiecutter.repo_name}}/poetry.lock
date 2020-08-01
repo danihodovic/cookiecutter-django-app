@@ -140,10 +140,10 @@ description = "Django template coverage.py plugin"
 name = "django-coverage-plugin"
 optional = false
 python-versions = "*"
-version = "1.6.0"
+version = "1.8.0"
 
 [package.dependencies]
-coverage = ">=4.0"
+coverage = "*"
 six = ">=1.4.0"
 
 [[package]]
@@ -650,7 +650,7 @@ version = "1.11.2"
 [[package]]
 category = "dev"
 description = "Backport of pathlib-compatible object wrapper for zip files"
-marker = "python_version >= \"3.5\" and python_version < \"3.8\" or python_version < \"3.8\""
+marker = "python_version >= \"3.5\" and python_version < \"3.8\" or python_version < \"3.8\" or python_version >= \"3.5\" and python_version < \"3.8\" and (python_version >= \"3.5\" and python_version < \"3.8\" or python_version < \"3.8\")"
 name = "zipp"
 optional = false
 python-versions = ">=2.7"
@@ -664,7 +664,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["pathlib2", "contextlib2", "unittest2"]
 
 [metadata]
-content-hash = "0ef4786ce2ebec06e02693b65ffb731c9bc8a83fe23ba951a5c3b99bd45e669d"
+content-hash = "98911af4f2dfe6046159deb719b828d3d8a7f258d617985ec5b7266d8e944aa8"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -747,7 +747,7 @@ django = [
     {file = "Django-2.2.11.tar.gz", hash = "sha256:65e2387e6bde531d3bb803244a2b74e0253550a9612c64a60c8c5be267b30f50"},
 ]
 django-coverage-plugin = [
-    {file = "django_coverage_plugin-1.6.0.tar.gz", hash = "sha256:8810678115ea541f85f4fdfa248e2bf703f05ac6740f6dbd9860d11a9861672f"},
+    {file = "django_coverage_plugin-1.8.0.tar.gz", hash = "sha256:d53cbf3828fd83d6b89ff7292c6805de5274e36411711692043e67bcde25ae0c"},
 ]
 importlib-metadata = [
     {file = "importlib_metadata-0.23-py2.py3-none-any.whl", hash = "sha256:d5f18a79777f3aa179c145737780282e27b508fc8fd688cb17c7a813e8bd39af"},
