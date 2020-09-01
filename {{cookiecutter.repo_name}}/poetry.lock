@@ -394,7 +394,7 @@ description = "Python REPL build on top of prompt_toolkit"
 name = "ptpython"
 optional = false
 python-versions = ">=3.6"
-version = "3.0.3"
+version = "3.0.5"
 
 [package.dependencies]
 appdirs = "*"
@@ -667,7 +667,8 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["pathlib2", "contextlib2", "unittest2"]
 
 [metadata]
-content-hash = "e8eb7f658431024c8c0626600ee19c2a040d216f98c50364c4bfa1220df8ff58"
+content-hash = "1f4e98d5124d170950f1b5a0112f519a5f986d137336694c1a8407e3e57fc325"
+lock-version = "1.0"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -862,8 +863,8 @@ ptipython = [
     {file = "ptipython-1.0.1.tar.gz", hash = "sha256:0a4375af55c306ce6570f205adba290128979f7d6dff29cc4960c76aedb53788"},
 ]
 ptpython = [
-    {file = "ptpython-3.0.3-py2.py3-none-any.whl", hash = "sha256:edaf32b9ea92034b0b3666258176bbd171901bede603510fc9a1d82b626a39b2"},
-    {file = "ptpython-3.0.3.tar.gz", hash = "sha256:9ac4e4047ca3a03133702a353a93cf56ca1ec1162bc7ecaff087a91c03e3827b"},
+    {file = "ptpython-3.0.5-py2.py3-none-any.whl", hash = "sha256:382d080e4130b9be254776787206380359be4f73c25e6b4e8cc371905c4fa587"},
+    {file = "ptpython-3.0.5.tar.gz", hash = "sha256:5094e7e4daa77453d3c33eb7b7ebbf1060be4446521865a94e698bc85ff15930"},
 ]
 ptyprocess = [
     {file = "ptyprocess-0.6.0-py2.py3-none-any.whl", hash = "sha256:d7cc528d76e76342423ca640335bd3633420dc1366f258cb31d05e865ef5ca1f"},
