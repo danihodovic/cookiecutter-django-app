@@ -381,7 +381,7 @@ ptpython = {version = "*", markers = "python_version >= \"3.5\""}
 
 [[package]]
 name = "ptpython"
-version = "3.0.3"
+version = "3.0.7"
 description = "Python REPL build on top of prompt_toolkit"
 category = "dev"
 optional = false
@@ -651,7 +651,7 @@ testing = ["pathlib2", "contextlib2", "unittest2"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "76e962af8d63b12d5810fcda924330130c44a082cf120b65d03c4c2eae7d35c3"
+content-hash = "bcf9b702f7903654805ad5121eff8d1b92959c23a4591acf07e7bb6c35b7303c"
 
 [metadata.files]
 appdirs = [
@@ -849,8 +849,8 @@ ptipython = [
     {file = "ptipython-1.0.1.tar.gz", hash = "sha256:0a4375af55c306ce6570f205adba290128979f7d6dff29cc4960c76aedb53788"},
 ]
 ptpython = [
-    {file = "ptpython-3.0.3-py2.py3-none-any.whl", hash = "sha256:edaf32b9ea92034b0b3666258176bbd171901bede603510fc9a1d82b626a39b2"},
-    {file = "ptpython-3.0.3.tar.gz", hash = "sha256:9ac4e4047ca3a03133702a353a93cf56ca1ec1162bc7ecaff087a91c03e3827b"},
+    {file = "ptpython-3.0.7-py2.py3-none-any.whl", hash = "sha256:c40b096c80bd09ebc4012017444cf7281fe5308f6dd7ca6a45ef9250cb271428"},
+    {file = "ptpython-3.0.7.tar.gz", hash = "sha256:34814eb410f854c823be4c4a34124e1dc8ca696da1c1fa611f9da606c5a8a609"},
 ]
 ptyprocess = [
     {file = "ptyprocess-0.6.0-py2.py3-none-any.whl", hash = "sha256:d7cc528d76e76342423ca640335bd3633420dc1366f258cb31d05e865ef5ca1f"},
