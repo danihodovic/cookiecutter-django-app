@@ -500,7 +500,7 @@ testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "requests", "xm
 
 [[package]]
 name = "pytest-clarity"
-version = "0.2.0a1"
+version = "0.3.0a0"
 description = "A plugin providing an alternative, colourful diff output for failing assertions."
 category = "dev"
 optional = false
@@ -654,7 +654,7 @@ testing = ["pathlib2", "contextlib2", "unittest2"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "c6f415023871cd13cdf9fd41897fd8838a2e59ac1dc5bbb05da8adf458977f34"
+content-hash = "03154df3025eb75365878832a469dfe48bf124d61fa98fad743f9c6a0e583091"
 
 [metadata.files]
 appdirs = [
@@ -902,7 +902,7 @@ pytest = [
     {file = "pytest-6.2.2.tar.gz", hash = "sha256:9d1edf9e7d0b84d72ea3dbcdfd22b35fb543a5e8f2a60092dd578936bf63d7f9"},
 ]
 pytest-clarity = [
-    {file = "pytest-clarity-0.2.0a1.tar.gz", hash = "sha256:3f40d5ae7cb21cc95e622fc4f50d9466f80ae0f91460225b8c95c07afbf93e20"},
+    {file = "pytest-clarity-0.3.0a0.tar.gz", hash = "sha256:5cc99e3d9b7969dfe17e5f6072d45a917c59d363b679686d3c958a1ded2e4dcf"},
 ]
 pytest-cov = [
     {file = "pytest-cov-2.10.0.tar.gz", hash = "sha256:1a629dc9f48e53512fcbfda6b07de490c374b0c83c55ff7a1720b3fccff0ac87"},
